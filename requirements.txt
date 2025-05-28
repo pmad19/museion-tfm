@@ -1,0 +1,14 @@
+langchain
+streamlit
+pymongo
+langgraph
+python-dotenv
+langchain-groq
+langchain-pinecone
+langchain-core
+langchain-community
+pinecone
+lark
+transformers
+langsmith
+langchain-openai
