@@ -1,7 +1,7 @@
 langchain
 streamlit
 pymongo
-langgraph
+langgraph==0.2.59
 python-dotenv
 langchain-groq
 langchain-pinecone
