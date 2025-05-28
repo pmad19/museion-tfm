@@ -57,10 +57,6 @@ def get_embedding_function():
     #embeddings = OllamaEmbeddings(model="intfloat-multilingual-e5-large:f16")
     embeddings = AzureOpenAIEmbeddings(
         model="text-embedding-3-large",
-        # dimensions: Optional[int] = None, # Can specify dimensions with new text-embedding-3 models
-        # azure_endpoint="https://<your-endpoint>.openai.azure.com/", If not provided, will read env variable AZURE_OPENAI_ENDPOINT
-        # api_key=... # Can provide an API key directly. If missing read env variable AZURE_OPENAI_API_KEY
-        # openai_api_version=..., # If not provided, will read env variable AZURE_OPENAI_API_VERSION
     )
     return embeddings
 
